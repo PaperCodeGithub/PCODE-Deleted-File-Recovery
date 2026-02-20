@@ -2,7 +2,7 @@
 
 A lightweight C-based tool to **recover deleted image files** (like JPG, PNG) directly from raw disk sectors. This utility works by scanning binary data for common **image file headers and footers**, reconstructing lost images without relying on the filesystem.
 
-## 🛠 Features
+## Features
 
 - Scans raw disk sectors for image file signatures
 - Identifies file boundaries using image header/footer
@@ -31,7 +31,7 @@ Output .exe is in Aspha folder
 ### 2. Run
 Open aspha.exe
 
-## 📂 Output
+## Output
 Recovered images are stored as:
 recovered.jpg
 
@@ -48,5 +48,3 @@ recovered.jpg
 - This tool is for educational and forensic use only.
 - Do NOT write to the disk you are recovering from.
 - Make sure to work on a cloned disk image when possible.
-
----
